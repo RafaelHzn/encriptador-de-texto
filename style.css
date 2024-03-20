@@ -1,0 +1,144 @@
+/* -------------------- PSEUDO-CLASSE CORES -------------------- */
+
+:root {
+--cor-primaria: #E5E5E5;
+--cor-secundaria: #0A3871;
+--cor-terciaria: #FFFFFF;
+--cor-quartenaria: #D8DFE8;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* --------------------------- RESET --------------------------- */
+
+* {
+    background-color: var(--cor-primaria);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo-alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}   
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: var(--cor-secundaria);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: var(--cor-secundaria); }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: var(--cor-terciaria);
+    background-image: url(/img/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--cor-secundaria);
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background-color: var(--cor-quartenaria);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: var(--cor-secundaria) ;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-terciaria);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------- CABEÇALHO ------------------------- */
+/* -------------------------------------------------------------- */
+
+/* ------------------------- PÁGINA HOME------------------------- */
+/* -------------------------------------------------------------- */
+
+/* -------------------------- PÁGINA 02 ------------------------- */
+/* -------------------------------------------------------------- */
+
+/* -------------------------- PÁGINA 03 ------------------------- */
+/* -------------------------------------------------------------- */
+
+/* -------------------------- PÁGINA 04 ------------------------- */
+/* -------------------------------------------------------------- */
+
+/* -------------------------- PÁGINA 05 ------------------------- */
+/* -------------------------------------------------------------- */
+
+/* ---------------------- ESTILOS DINÂMICOS --------------------- */
+/* -------------------------------------------------------------- */
+
+/* ----------------------- BOTÃO ENCRIPTAR ---------------------- */
+/* -------------------------------------------------------------- */
+
+/* --------------------- BOTÃO DESENCRIPTAR --------------------- */
+/* -------------------------------------------------------------- */
+
+/* ------------------------ BOTÃO VOLTAR ------------------------ */
+/* -------------------------------------------------------------- */
+
+/* --------------------------- RODAPÉ --------------------------- */
+/* -------------------------------------------------------------- */
+
+/* ----------------------- RESPONSIVIDADE ----------------------- */
+/* -------------------------------------------------------------- */
