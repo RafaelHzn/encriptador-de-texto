@@ -16,32 +16,38 @@
 </head>
 
 <body>
-    <header>
-        <img class="logo-alura" src="/img/logo-alura.png" alt="logo da alura">
+    <header class="logo">
+        <a href="https://www.alura.com.br/" target="_blank">
+            <img src="/img/logo-alura.png" alt="logo da alura"/>
+        </a>
     </header>
 
     <main>
-        <section>
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
-
-            <div class="informacao">
-                <h6>Apenas letras minúsculas e sem acento.</h6>
-            </div>
-
-            <div class="botoes">
-                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
-                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        <section class="conteudo-esquerda">
+            <textarea class="texto" required="" placeholder="Digite seu texto" spellcheck="false"></textarea>
+            <div class = "conteudo-esquerda-final">
+                <div class="conteudo-esquerda-regras">
+                    <img src="/img/atencao.png" alt="imagem de exclamação">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="conteudo-esquerda-botoes">
+                    <button class = criptografar>Criptografar</button>
+                    <button class = descriptografar>Descriptografar</button>
+                </div>
             </div>
         </section>
-
-        <section>
-            <textarea class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+        <section class = "conteudo-direita">
+            <p class = "texto-criptografado"></p>
+            <div class = "conteudo-direita-itens">
+                <img src="img/personagem.png" alt="imagem de personagem segurando uma lupa">
+                <div class="conteudo-direita-mensagem">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>      
+            </div>
+            <button class = "conteudo-direita-copiar">Copiar</button>
         </section>
     </main>
-
-    <footer>
-    </footer>
 
 </body>
 </html>
